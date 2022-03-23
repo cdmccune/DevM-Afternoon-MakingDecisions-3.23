@@ -57,27 +57,48 @@
 // else console log they weren't 
 
 
-var amysBirthYear = 1991;
-var brittanisBirthYear = 1986;
+// var amysBirthYear = 1991;
+// var brittanisBirthYear = 1986;
 
-if (amysBirthYear === brittanisBirthYear) {
-  console.log("Amy and Brittani were born in the same year")
-} else {
-  console.log("Amy and Brittani were not born in the same year")
-}
+// if (amysBirthYear === brittanisBirthYear) {
+//   console.log("Amy and Brittani were born in the same year")
+// } else {
+//   console.log("Amy and Brittani were not born in the same year")
+// }
 
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 55;
-let rain = true;
 
 /*
-  Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
-  If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
+  Using an if statement and a comparison operator, create code that will log a suggestion on what type of 
+  clothes one should wear for the day, based on the above temperature and rain.
+  If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. 
+  If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. 
+  If it is 60 degrees or below, one should wear a jacket and carry an umbrella. 
+  Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
 */
 
-//CODE HERE
+// if hotter than 80 and raining, console log, >=, ===
+// if between 60 and 80 and raining, console log <>, ===
+// if its below 60 console log <, ===
+// if between 60 and 80 and not raining, console log <>, ===
+// if hotter than 80 and not raining, console log >=, ===
+
+let temperature = 75;
+let rain = false;
+
+if (temperature >= 80 && rain === true) {
+  console.log("Wear a t-shirt and take an umbrella")
+} else if (temperature < 80 && temperature > 60 && rain === true) {
+  console.log("Wear a rain-jacket")
+} else if (temperature <= 60) {
+  console.log ("Wear a jacket and carry an umbrella")
+} else if (temperature >= 80 && rain === false ) {
+  console.log ("Wear a t-shirt")
+} 
+
+
 
 ////////// PROBLEM 5 //////////
 
