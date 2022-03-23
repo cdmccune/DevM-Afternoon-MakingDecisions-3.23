@@ -85,18 +85,18 @@
 // if between 60 and 80 and not raining, console log <>, ===
 // if hotter than 80 and not raining, console log >=, ===
 
-let temperature = 75;
-let rain = false;
+// let temperature = 75;
+// let rain = false;
 
-if (temperature >= 80 && rain === true) {
-  console.log("Wear a t-shirt and take an umbrella")
-} else if (temperature < 80 && temperature > 60 && rain === true) {
-  console.log("Wear a rain-jacket")
-} else if (temperature <= 60) {
-  console.log ("Wear a jacket and carry an umbrella")
-} else if (temperature >= 80 && rain === false ) {
-  console.log ("Wear a t-shirt")
-} 
+// if (temperature >= 80 && rain === true) {
+//   console.log("Wear a t-shirt and take an umbrella")
+// } else if (temperature < 80 && temperature > 60 && rain === true) {
+//   console.log("Wear a rain-jacket")
+// } else if (temperature <= 60) {
+//   console.log ("Wear a jacket and carry an umbrella")
+// } else if (temperature >= 80 && rain === false ) {
+//   console.log ("Wear a t-shirt")
+// } 
 
 
 
@@ -106,8 +106,16 @@ if (temperature >= 80 && rain === true) {
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
 
-//CODE HERE
+// for loop
+// set i = 0
+// i less than 10
+// add one to i
+// console log
 
+for (i=0; i<10; i++){
+  console.log("Hello")
+}
+ 
 ////////// PROBLEM 6 //////////
 
 /*
